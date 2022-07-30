@@ -1,1 +1,32 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
