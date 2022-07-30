@@ -30,3 +30,52 @@ img {
   max-width: 100%;
   height: auto;
 }
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.hero {
+  background-image: url('../images/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 268px;
+  padding-bottom: 7px;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+.header-title {
+  font-family: 'Bebas Neue';
+
+  font-weight: 700;
+  font-size: 61px;
+  line-height: 1;
+  color: #ffffff;
+}
+
+.section-top {
+  background-color: #14475f;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.section-top-text {
+  font-family: 'Montserrat';
+
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  text-align: center;
+  color: #ffffff;
+}
